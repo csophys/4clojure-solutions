@@ -1,0 +1,4 @@
+* 30
+#+BEGIN_SRC clojure
+#(map first (partition-by identity %))
+#+END_SRC
